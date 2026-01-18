@@ -14,6 +14,17 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.h3-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 4px 0;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: 700;
@@ -82,4 +93,119 @@ nav li a{
 }
 .banner img{
     width: 584px;
+}
+
+/* Main section styles */
+
+.main{
+    max-width: 1140px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.about-section{
+    padding: 130px 150px;
+    margin-top: 130px;
+    margin-bottom: 130px;  
+}
+.about-container{
+    background-color: white;
+    width: 830px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #757575;
+    font-size: 20px;
+    margin: 0;
+}
+.item-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1px;    
+}
+.about-description{
+    font-size: 18px;
+}
+
+/* Skills section */
+
+.skills > div > .h3-title{
+    text-align: center;
+}
+.skill-description1{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.mainskill-div{
+    margin-bottom: 100px;
+}
+.skill{
+    width: 267px;
+    box-shadow: 0 0 20px rgba(194, 194, 198, 0.276);
+    border-radius: 4px;   
+    width: 267px;
+    padding: 30px 33px 30px 27px;
+}
+.skill-title{
+    font-size: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+    line-height: 30px;
+}
+
+/* Resume section style */
+.Resume-section{
+    text-align: center;
+    margin-bottom: 113px;
+}
+hr{
+    margin: 9px 0;
+}
+.resume-container{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.Resume-section > h2{
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+.resume-div{
+    margin-bottom: 30px;
+}
+.resume-title{
+    font-size: 26px;
+}
+.resume-heading{
+    font-size: 25px;
+    color: #474747;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.resume-subheading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin: 0;
+}
+.resume-description{
+    font-size: 16px;
+    color: #757575;
 }
